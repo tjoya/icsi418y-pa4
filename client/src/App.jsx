@@ -4,6 +4,7 @@ import Login from './components/Login'
 import CreatePro from "./CreatePro";
 import ViewPro from './ViewPro'
 import ProjectMembership from './ProjectMembership'
+import UserStories from "./UserStories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CreatePro />
       <ViewPro />
       <ProjectMembership />
+      <UserStories />
     </>
   )
 }
